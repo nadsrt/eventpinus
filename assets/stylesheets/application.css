@@ -90,18 +90,6 @@
   margin-bottom: 20px;
   width: 50px; }
 
-.shop-item {
-  background-color: #9c9c9c;
-  padding: 20px;
-  margin: 0 auto 50px;
-  width: 60%; }
-  .shop-item > * {
-    display: block;
-    margin: 0 auto;
-    text-align: center; }
-  .shop-item img {
-    max-height: 200px; }
-
 .shop-item-title {
   margin-top: 20px;
   color: #1f2e6e; }
@@ -112,15 +100,23 @@
 .shop-item-description {
   color: #c7c7c7; }
 
-.btn-purchase {
-  background-color: #efb61e;
-  border-radius: 0;
-  color: #1f2e6e !important;
-  margin: 5px 30px 0;
-  letter-spacing: 0.2em; }
+.library-item-title {
+  color: #1f2e6e; }
 
-.shop-item.active {
-  background-color: #efb61e; }
+.library-item-availability {
+  color: #ff3a3a; }
+
+.library-item-description {
+  color: #1f2e6e; }
+
+.add-book {
+  background-color: #efb61e;
+  display: block;
+  font-size: 40px;
+  letter-spacing: 0.2em;
+  margin: 0 auto 30px;
+  text-align: center;
+  width: 60%; }
 
 html,
 body {
@@ -192,5 +188,30 @@ body > footer {
   text-align: center; }
   .pinus-header h1 {
     letter-spacing: 0.2em; }
+
+.btn-market {
+  background-color: #efb61e;
+  border-radius: 0;
+  color: #1f2e6e !important;
+  margin: 5px 30px 0;
+  letter-spacing: 0.2em; }
+
+.market-item {
+  background-color: #9c9c9c;
+  padding: 20px;
+  margin: 0 auto 50px;
+  width: 60%; }
+  .market-item > * {
+    display: block;
+    margin: 0 auto;
+    text-align: center; }
+  .market-item img {
+    max-height: 200px; }
+  .market-item.active {
+    background-color: #ffd974; }
+  .market-item.borrowed {
+    background-color: #ffd974; }
+    .market-item.borrowed > .library-item-availability {
+      color: #9c9c9c; }
 
 /*# sourceMappingURL=application.css.map */

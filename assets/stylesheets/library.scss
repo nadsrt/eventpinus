@@ -1,0 +1,21 @@
+.library-item-title {
+  color: $purple;
+}
+
+.library-item-availability {
+  color: $red;
+}
+
+.library-item-description {
+  color: $purple;
+}
+
+.add-book {
+  background-color: $yellow;
+  display: block;
+  font-size: 40px;
+  letter-spacing: 0.2em;
+  margin: 0 auto 30px;
+  text-align: center;
+  width: 60%;
+}
