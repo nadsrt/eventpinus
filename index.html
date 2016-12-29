@@ -7,28 +7,110 @@
     <link href="https://fonts.googleapis.com/css?family=Hind|Montserrat" rel="stylesheet">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="assets/javascripts/script.js"></script>
-    <link rel="stylesheet" href="assets/stylesheets/style.css">
+    <link rel="stylesheet" href="assets/stylesheets/application.css">
+    <link rel="stylesheet" href="assets/stylesheets/index.css">
   </head>
   <body>
-    <div class="container">
-      <nav>
-        Navbar
-      </nav>
-      <header>
-        Atas
-      </header>
-      <main>
-      <aside>
-        What's Happening?
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><img alt="Logo PINUS" src="assets/images/logo.png" height="25"></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Profile<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Initiatives<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#" class="sign-up">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="featured-index">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-7 index-image">
+            <img src="assets/images/index-photo.jpg">
+            <div class="index-image-description">
+              <div>18 November 2016</div>
+              <h2>Masterclass Series</h2>
+              <p>Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai</p>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="index-text">
+              <h1>Perhimpunan Indonesia <strong>NUS</strong></h1>
+              <p>Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai</p>
+              <a class="btn btn-join">Join Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="index-main container-fluid">
+    <div class="row">
+      <aside class="index-aside col-md-3">
+        <h2>What's Happening?</h2>
+        <div class="heading-border"></div>
       </aside>
-      <section>
-        <article>SAN 2017 is recruiting!</article>
-        <article>SAN 7102 is recruiting!</article>
+      <section class="col-md-9">
+        <article class="container-fluid index-article">
+          <div class="col-md-3">
+            <img class="img-responsive" src="assets/images/index-event.jpg"></img>
+          </div>
+          <div class="col-md-9 index-article">
+            <div>9 January 2017</div>
+            <h2>SAN 2017 IS RECRUITING!</h2>
+            <p>Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai</p>
+            <a class="btn btn-article-join">Join Us</a>
+          </div>
+        </article>
+        <article class="container-fluid index-article">
+          <div class="col-md-3">
+            <img class="img-responsive" src="assets/images/index-event.jpg"></img>
+          </div>
+          <div class="col-md-9 index-article">
+            <div>9 January 2017</div>
+            <h2>SAN 2017 IS RECRUITING!</h2>
+            <p>Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai Prata capcai</p>
+            <a class="btn btn-article-join">Join Us</a>
+          </div>
+        </article>
       </section>
-      </main>
-      <footer>
-        Fesbuk Yutub
-      </footer>
     </div>
+    </main>
+    <footer>
+      <div class="footer-images">
+        <img src="assets/images/iconfb.png">
+        <img src="assets/images/iconyt.png">
+        <img src="assets/images/iconig.png">
+      </div>
+      <span>Copyright (c) PINUS 2017. All rights reserved.</span>
+    </footer>
   </body>
 </html>

@@ -1,8 +1,53 @@
 html,
 body {
-  font-family: 'Montserrat', 'Hind', sans-serif; }
+  font-family: 'Hind', 'Montserrat', sans-serif; }
 
-.hind {
-  font-family: 'Hind', sans-serif; }
+.navbar {
+  margin-bottom: 0;
+  min-height: 40px; }
+  .navbar .container-fluid {
+    padding-right: 0; }
+
+.navbar-nav > li > a {
+  color: #1f2e6e;
+  padding: 10px; }
+  .navbar-nav > li > a.sign-up {
+    background-color: #efb61e;
+    color: #fff; }
+
+.navbar-brand {
+  height: 40px;
+  padding: 5px 15px; }
+
+h1 {
+  font-size: 55px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat'; }
+
+p {
+  line-height: 17px; }
+
+.btn {
+  color: #fff;
+  font-family: 'Montserrat';
+  text-transform: uppercase; }
+
+body > footer {
+  background-color: #ebebeb;
+  padding: 10px;
+  text-align: center; }
+  body > footer img {
+    height: 40px; }
+
+.footer-images {
+  padding: 10px; }
+  .footer-images img {
+    margin: 0 4px; }
 
 /*# sourceMappingURL=application.css.map */

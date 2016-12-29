@@ -1,8 +1,71 @@
+@import 'colors';
+
 html,
 body {
-	font-family: 'Montserrat', 'Hind', sans-serif;
+	font-family: 'Hind', 'Montserrat', sans-serif;
 }
 
-.hind {
-	font-family: 'Hind', sans-serif;
+.navbar {
+  margin-bottom: 0;
+  min-height: 40px;
+
+  .container-fluid {
+    padding-right: 0;
+  }
+}
+
+.navbar-nav > li > a {
+  color: $purple;
+  padding: 10px;
+
+  &.sign-up {
+    background-color: $yellow;
+    color: #fff;
+  }
+}
+
+.navbar-brand {
+  height: 40px;
+  padding: 5px 15px;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat';
+}
+
+p {
+  line-height: 17px;
+}
+
+.btn {
+  color: #fff;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+}
+
+body > footer {
+  background-color: $light-gray;
+  padding: 10px;
+  text-align: center; 
+
+  img {
+    height: 40px;
+  }
+}
+
+.footer-images {
+  padding: 10px;
+
+  img {
+    margin: 0 4px;
+  }
 }
