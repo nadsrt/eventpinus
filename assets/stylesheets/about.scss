@@ -1,0 +1,41 @@
+$about-overlay: fade-out($purple, 0.3);
+
+.about-pinus-top {
+  background: linear-gradient($about-overlay, $about-overlay), no-repeat url(../images/index-photo.jpg) 50% / 100%;
+  color: white;
+  padding: 10px 20%;
+  text-align: center;
+}
+
+.about-pinus-text {
+  margin-bottom: 30px;
+  text-align: center;
+
+  h1 {
+    display: inline-block;
+    letter-spacing: 0.2em;
+    padding: 10px;
+
+    &:first-child {
+      background-color: $purple;
+    }
+
+    &:last-child {
+      background-color: $yellow;
+    }
+  }
+}
+
+.about-main {
+  background-color: #fff;
+  color: $purple;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.heading-border {
+  background-color: $red;
+  height: 8px;
+  margin-bottom: 20px;
+  width: 50px;
+}
