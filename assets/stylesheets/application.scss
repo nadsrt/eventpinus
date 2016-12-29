@@ -1,6 +1,7 @@
 @import 'colors';
 @import 'index';
 @import 'about';
+@import 'shop';
 
 html,
 body {
@@ -65,5 +66,33 @@ body > footer {
 
   img {
     margin: 0 4px;
+  }
+}
+
+.heading-border {
+  background-color: $red;
+  height: 8px;
+  margin: 0 auto;
+  width: 80px;
+}
+
+.with-bg {
+  background: linear-gradient($bg-overlay, $bg-overlay), url(../images/bg.png) 0 50% / cover no-repeat;
+}
+
+.market-main {
+  margin: 0 15px;
+  padding: 50px 0;
+}
+
+.pinus-header {
+  background-color: $purple;
+  color: #fff;
+  margin-bottom: 50px;
+  padding: 30px 0;
+  text-align: center;
+
+  h1 {
+    letter-spacing: 0.2em;
   }
 }
