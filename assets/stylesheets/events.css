@@ -39,7 +39,7 @@ main.events-main {
 	margin-bottom: 20px;
 	margin: auto;
 	max-width: 100%;
-	opacity: 0.7;
+	opacity: 0.9;
 }
 
 .event:hover {
@@ -52,7 +52,6 @@ main.events-main {
 	border: 15px solid #1F2E6E;
 	border-image: url('frame.png') 34% repeat;
 	margin: auto;
-	opacity: 0.5;
 }
 
 .event-desc {
